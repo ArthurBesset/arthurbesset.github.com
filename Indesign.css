@@ -1,0 +1,504 @@
+body {
+    font-family: 'Bebas Neue', 'cursive';
+    margin: 0px 0;
+    padding: 0;
+  }
+
+  .texte  {
+    font-family: 'Nanum Gothic', 'cursive';
+  }
+
+  a {
+    font-family: 'bebas Neue', 'cursive';
+  }
+
+
+
+/* Header */
+
+
+
+  header {
+    background-image: url(../PORTFOLIO/images/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 776px;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+  }
+  
+  header img {
+    margin-top: 35px;
+    width: 54px;
+    height: 90px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+  }
+
+  nav{
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    font-size: 32px;
+    margin-left: 165px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .btHeader {
+    background-color: transparent;
+    border: 3px solid rgba(105, 125, 247, 1);
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .titre {
+    align-items: center;
+    justify-content: center;
+    font-size: 96px;
+    text-align: center;
+    margin-top: 9%;
+  }
+
+  .titre p {
+    margin: -10px 0;
+  }
+
+  #arthurbesset {
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: rgba(255, 51, 102, 1);
+    color: transparent;
+  }
+
+  #scroll {
+    transform: rotate(-90deg);
+    position: absolute;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    left: 45%;
+    bottom: 16.8%;
+    text-decoration: none;
+  }
+
+  .scrolltrait{
+    background-color: white;
+    height: 3px;
+    width: 210px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 43.2%;
+    bottom: 12.6%; 
+  }
+
+
+
+
+/* MAIN */
+
+.ind1 {
+  position: relative;
+}
+
+.indTitre {
+  color: rgb(9, 10, 25);
+  font-size: 64px;
+  margin-bottom: -13%;
+  margin-top: 2%;
+}
+
+.trait_titre{
+  background-color: rgb(9, 10, 25);
+  width: 80%;
+  height: 3px;
+  left: 10%;
+  bottom: 92%;
+  position: absolute;
+}
+
+.marquePage {
+  letter-spacing: 10px;
+  font-size: 26px;
+  transform: rotate(90deg);
+  position: absolute;
+  left: 78%;
+  bottom: 57.5%;
+}
+
+.mP1 {
+  color: rgba(105, 125, 247, 1);
+}
+
+.bande1 {
+  background-color: rgba(9, 10, 25, 1);
+  height: 400px;
+  margin-top: 700px;
+  text-align: center;
+}
+
+.bande1Texte {
+  padding-top: 13.5%;
+  color: white;
+  font-family: 'Nanum Gothic', 'Cursive';
+  font-size: 28px;
+}
+
+.img1{
+  height: 60%;
+  width: 60%;
+  margin-bottom: -59%;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+
+
+
+
+
+
+
+.ind2 {
+  position: relative;
+}
+
+.indTitre2 {
+  color: rgb(9, 10, 25);
+  font-size: 64px;
+  margin-bottom: -13%;
+  margin-top: 2%;
+}
+
+.trait_titre2{
+  background-color: rgb(9, 10, 25);
+  width: 80%;
+  height: 3px;
+  left: 10%;
+  bottom: 92%;
+  position: absolute;
+}
+
+.marquePage2 {
+  letter-spacing: 10px;
+  font-size: 26px;
+  transform: rotate(90deg);
+  position: absolute;
+  left: 78%;
+  bottom: 57.5%;
+}
+
+.bande2 {
+  background-color: rgba(9, 10, 25, 1);
+  height: 400px;
+  margin-top: 600px;
+  color: white;
+  font-family: 'Nanum Gothic', 'Cursive';
+  font-size: 28px;
+  text-align: center;
+}
+
+.bande2texte {
+  padding-top: 16%;
+  color: white;
+  font-family: 'Nanum Gothic', 'Cursive';
+  font-size: 28px;
+}
+
+.img2{
+  height: 60%;
+  width: 60%;
+  margin-bottom: -55%;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+
+
+
+/* BOUTONS DE REDIRECTION */
+
+  #boutons {
+    display: flex;
+    margin-top: 83px;
+    justify-content: center;
+    margin-left: 5%;
+  }
+
+  .btDiv1 {
+    background-color: rgba(105, 125, 247, 1);
+    border-radius: 100px;
+    margin-right: 30px;
+    height: 75px;
+    width: 210px;
+    margin-bottom: 7.5%;
+    margin-right: 8%;
+  }
+
+  .btDiv1:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 0.85rem rgba(105, 125, 247, 1));
+    transition: 0.5s;
+  }
+
+  .btTexte1{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    padding: 30px;
+    line-height: 75px; 
+    text-align: center;
+    margin-left: 9%;
+  }
+
+  .btDiv2 {
+    background-color: rgba(105, 125, 247, 1);
+    border-radius: 100px;
+    margin-right: 30px;
+    height: 75px;
+    width: 210px;
+  }
+
+  .btDiv2:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 0.95rem rgba(105, 125, 247, 1));
+    transition: 0.5s;
+  }
+
+  .btTexte2{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    padding: 30px;
+    line-height: 75px; 
+    text-align: center;
+    margin-left: 8%;
+  }
+
+  .btDiv3 {
+    background-color: rgba(105, 125, 247, 1);
+    border-radius: 100px;
+    margin-right: 30px;
+    height: 75px;
+    width: 210px;
+    margin-left: 7.5%;
+  }
+
+  .btDiv3:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 0.95rem rgba(105, 125, 247, 1));
+    transition: 0.5s;
+  }
+
+  .btTexte3{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    padding: 30px;
+    line-height: 75px; 
+    text-align: center;
+    margin-left: 17.5%;
+  }
+
+/* CONTACT */
+
+  #contact{
+    background-color: rgba(9, 10, 25, 1);
+    color: white;
+    position: relative;
+    height: 665px;
+  }
+
+  .contactTitre {
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
+  .mP1 {
+    color: rgba(105, 125, 247, 1);
+  }
+
+  h2{
+    margin: 0;
+    font-size: 80px;
+    margin-left: 10%;
+  }
+  
+  div ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    align-self: flex-end;
+    margin-top: 20px;
+  }
+
+  .marquePage3 {
+    letter-spacing: 12px;
+    font-size: 26px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -2%;
+    bottom: 40%;
+  }
+
+  .trait_titre3 {
+    background-color: white;
+    width: 80%;
+    height: 3px;
+    left: 10%;
+    bottom: 77%;
+    position: absolute;
+  }
+
+  #name {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 18px;
+    padding-left: 1%;
+    border-radius: 20px;
+    background-color: rgba(105, 124, 247, 0.974);
+    border-color:white;
+    border-width: 3px;
+    font-size: 18px;
+  }
+
+  #email {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 18px;
+    padding-left: 1%;
+    border-radius: 20px;
+    background-color: rgba(105, 124, 247, 0.974);
+    border-color:white;
+    border-width: 3px;
+    font-size: 18px;
+  }
+  
+  #message {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+    background-color: rgba(105, 124, 247, 0.974);
+    border-color:white;
+    border-width: 3px;
+    font-size: 18px;
+    padding-left: 1%;
+  }
+
+  #message::placeholder {
+    color:rgba(9, 10, 25, 0.607);
+    font-family:'Bebas Neue', 'cursive';
+  }
+
+  #email::placeholder {
+    color:rgba(9, 10, 25, 0.607);
+    font-family:'Bebas Neue', 'cursive';
+  }
+
+  #name::placeholder {
+    color:rgba(9, 10, 25, 0.607) ;
+    font-family:'Bebas Neue', 'cursive';
+  }
+
+  #btForm {
+    background-color: rgba(105, 125, 247, 1);
+    border-radius: 100px;
+    border-color: transparent;
+    color: white;
+    font-size: 24px;
+    padding-right: 27px;
+    padding-left: 27px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family:'Bebas Neue', 'cursive';
+  }
+
+
+
+/* FOOTER */
+
+  footer {
+    background-color: white;
+    color: rgba(9, 10, 25, 1);
+    text-align: start;
+  }
+
+  .toutFooter {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #imagesFooter {
+    margin-left: 10%;
+    margin-top: 1.7%;
+  }
+
+  #linkedin {
+    margin-left: -13%;
+  }
+
+  #insta {
+    margin-top: 10%;
+    margin-left: 6%;
+  }
+
+  #contactF {
+    margin-left: 35%;
+    margin-top: -1%;
+  }
+
+  #liensRapides {
+    margin-left: 10%;
+    margin-top: -1%;
+  }
+
+  .titreFooter{
+    font-size: 36px;
+  }
+
+  #logoFooter {
+    width: 90px;
+    height: 139px;
+  }
+  
+  #linkedin {
+    width: 52px;
+    height: 52px;
+  }
+
+  #insta {
+    width: 52px;
+    height: 52px;
+  }

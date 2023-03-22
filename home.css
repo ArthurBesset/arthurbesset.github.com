@@ -1,0 +1,1057 @@
+body {
+    font-family: 'Bebas Neue', 'cursive';
+    margin: 0px 0;
+    padding: 0;
+  }
+
+  .texte  {
+    font-family: 'Nanum Gothic', 'cursive';
+  }
+
+  a {
+    font-family: 'bebas Neue', 'cursive';
+  }
+
+  span {
+    font-family: 'bebas Neue', 'cursive';
+  }
+
+
+
+/* Header */
+
+
+
+  header {
+    background-image: url(../PORTFOLIO/images/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 776px;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+  }
+  
+  header img {
+    margin-top: 35px;
+    width: 54px;
+    height: 90px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+  }
+
+  nav{
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    font-size: 32px;
+    margin-left: 165px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .btHeader {
+    background-color: transparent;
+    border: 3px solid rgba(105, 125, 247, 1);
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .titre {
+    align-items: center;
+    justify-content: center;
+    font-size: 96px;
+    text-align: center;
+    margin-top: 9%;
+  }
+
+  .titre p {
+    margin: -10px 0;
+  }
+
+  #arthurbesset {
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #ffff;
+    color: transparent;
+  }
+
+  #scroll {
+    transform: rotate(-90deg);
+    position: absolute;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    left: 45%;
+    bottom: 16.8%;
+    text-decoration: none;
+  }
+
+  .scrolltrait{
+    background-color: white;
+    height: 3px;
+    width: 210px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 43.2%;
+    bottom: 12.6%; 
+  }
+
+
+
+
+/* MAIN */
+
+
+
+  
+  main {
+    margin: 0 auto;
+    padding: 0px;
+    background-color: rgba(9, 10, 25, 1);
+  }
+
+  /* A PROPOS */
+
+  .trait_titre{
+    background-color: white;
+    width: 80%;
+    height: 3px;
+    left: 10%;
+    bottom: 86.5%;
+    position: absolute;
+  }
+
+  .titreMain1 {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  #trait{
+    background-color: white;
+    height: 3px;
+    width: 100%;
+  }
+
+  .moiTout{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .mP1 {
+    color: rgba(105, 125, 247, 1);
+  }
+
+  .marquePage {
+    letter-spacing: 12px;
+    font-size: 26px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -2%;
+    bottom: 35%;
+  }
+
+  .photomoi{
+    width: 320px;
+    left: 10%;
+    border-radius: 15px;
+    margin-right: 40px;
+  }
+
+  .moiEcriture {
+    text-align: left;
+    font-size: 24px;
+    margin-left: 40px;
+  }
+
+  .moiInfoS {
+    display: flex;
+    margin-top: 60px;
+  }
+
+  .moiInfo{
+    color: rgba(105, 125, 247, 1);
+  }
+
+  .moiInfo2 {
+    color: rgba(105, 125, 247, 1);
+    margin-left: 90px;
+  }
+
+  .boutons {
+    display: flex;
+    margin-top: 83px;
+  }
+
+  .btDiv1 {
+    background-color: rgba(105, 125, 247, 1);
+    border-radius: 100px;
+    height: 75px;
+    width: 218px;
+    margin-right: 30px;
+  }
+
+  .btTexte1{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    padding: 31px;
+    padding-top: 20px;
+    height: 61px; 
+    line-height: 75px; 
+    text-align: center;
+  }
+
+
+  .btDiv2 {
+    background-color: transparent;
+    border: 3px solid rgba(105, 125, 247, 1);
+    border-radius: 100px;
+    height: 75px;
+    width: 218px;
+  }
+
+  .btTexte2 {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    padding: 72px;
+    padding-top: 20px;
+    height: 61px; 
+    line-height: 75px; 
+    text-align: center;
+  }
+
+  .btDiv1:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 0.85rem rgba(105, 125, 247, 1));
+    transition: 0.5s;
+  }
+
+  .btDiv2:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 0.95rem rgba(105, 125, 247, 1));
+    transition: 0.5s;
+  }
+
+  #about{
+    background-color: rgba(9, 10, 25, 1);
+    color: white;
+    height: 950px;
+    position: relative;
+  }
+
+
+  /* CREATIONS */
+
+  #crea{
+    background-color: rgba(9, 10, 25, 1);
+    color: white;
+    position: relative;
+    height: 1950px;
+  }
+
+  .marquePage2 {
+    letter-spacing: 12px;
+    font-size: 26px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -2%;
+    bottom: 63%;
+  }
+
+  .trait_titre2 {
+    background-color: white;
+    width: 80%;
+    height: 3px;
+    left: 10%;
+    bottom: 93%;
+    position: absolute;
+  }
+
+  .grandCarré{ 
+    display: flex;
+    font-size: 54px;
+    justify-content: center;
+    margin-top: 9%;
+  }
+
+  .traitGrad {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    top: 70%;
+    position: absolute;
+  }
+
+  .creaTexte{
+    padding-top: 85px;
+  }
+
+  .phoTexte {
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: #ffff;
+    color: transparent;
+    font-size: 89px;
+  }
+
+  .btGradDiv {
+    position: absolute;
+    top: 85%;
+    left: 33%;
+  }
+
+  .btGrad {
+    background-color: white;
+    border-radius: 100px;
+    text-decoration: none;
+    color: rgba(105, 125, 247, 1);
+    font-size: 42px;
+    padding-right: 37px;
+    padding-left: 38.5px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    text-align: center;
+
+  }
+
+  .gradient1 {
+    background: linear-gradient(90deg, rgba(105, 125, 247, 1), rgba(191, 46, 125, 1));
+    background-size: 400% 400%;
+    animation: anim 3.5s infinite ease-in-out;
+    width: 380px;
+    height: 380px;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 30px;
+    line-height: 1px;
+    position: relative;
+  }
+
+  .gradient1:hover {
+    transform: scale(1.13);
+    filter: drop-shadow(0 0 0.85rem rgba(191, 46, 125, 1));
+    transition: 0.8s;
+  }
+
+  .gradient2 {
+    background: linear-gradient(90deg, rgba(105, 125, 247, 1), rgba(35, 42, 210, 1));
+    background-size: 400% 400%;
+    animation: anim 2.5s infinite ease-in-out;
+    width: 380px;
+    height: 380px;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 30px;
+    line-height: 1px;
+    position: relative;
+  }
+
+  .gradient2:hover {
+    transform: scale(1.13);
+    filter: drop-shadow(0 0 0.85rem rgba(35, 42, 210, 1));
+    transition: 0.8s;
+  }
+
+  .gradient3 {
+    background: linear-gradient(90deg, rgba(105, 125, 247, 1), rgba(249, 150, 0, 1));
+    background-size: 400% 400%;
+    animation: anim 2.3s infinite ease-in-out;
+    width: 380px;
+    height: 380px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 30px;
+    line-height: 1px;
+    position: relative;
+  }
+
+  .gradient3:hover {
+    transform: scale(1.13);
+    filter: drop-shadow(0 0 0.85rem rgba(249, 150, 0, 1));
+    transition: 0.8s;
+  }
+
+  .gradient4 {
+    background: linear-gradient(90deg, rgba(105, 125, 247, 1), rgba(0, 249, 159, 1));
+    background-size: 400% 400%;
+    animation: anim 3.3s infinite ease-in-out;
+    width: 380px;
+    height: 380px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 30px;
+    line-height: 1px;
+    position: relative;
+  }
+
+  .gradient4:hover {
+    transform: scale(1.13);
+    filter: drop-shadow(0 0 0.85rem rgba(0, 249, 159, 1));
+    transition: 0.8s;
+  }
+
+  @keyframes anim {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+  }
+
+  .trait_titre2_5 {
+    background-color: white;
+    width: 80%;
+    height: 3px;
+    left: 10%;
+    bottom: 33%;
+    position: absolute;
+  }
+  
+  .film{
+    margin-top: 100px;
+  }
+
+  .filmTexte {
+    display: flex;
+    font-family: 'Nanum Gothic';
+    font-size: 26px;
+    margin-left: 15%;
+    margin-top: 10%;
+  }
+
+  .descrfilm{
+    margin-left: 5%;
+  }
+
+
+    /* CONTACT */
+
+  #contact{
+    background-color: white;
+    color: rgba(9, 10, 25, 1);
+    position: relative;
+    height: 665px;
+  }
+
+  .contactTitre {
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
+  h2{
+    margin: 0;
+    font-size: 80px;
+    margin-left: 10%;
+  }
+  
+  div ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    align-self: flex-end;
+    margin-top: 20px;
+  }
+
+  .marquePage3 {
+    letter-spacing: 12px;
+    font-size: 26px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -2%;
+    bottom: 40%;
+  }
+
+  .trait_titre3 {
+    background-color: rgba(9, 10, 25, 1);
+    width: 80%;
+    height: 3px;
+    left: 10%;
+    bottom: 80%;
+    position: absolute;
+  }
+
+  #name {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 18px;
+    padding-left: 1%;
+    border-radius: 20px;
+    background-color: rgba(105, 124, 247, 0.343);
+    border-color:rgba(9, 10, 25, 1) ;
+    border-width: 3px;
+    font-size: 18px;
+  }
+
+  #email {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 18px;
+    padding-left: 1%;
+    border-radius: 20px;
+    background-color: rgba(105, 124, 247, 0.343);
+    border-color:rgba(9, 10, 25, 1) ;
+    border-width: 3px;
+    font-size: 18px;
+  }
+  
+  #message {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+    background-color: rgba(105, 124, 247, 0.343);
+    border-color:rgba(9, 10, 25, 1) ;
+    border-width: 3px;
+    font-size: 18px;
+    padding-left: 1%;
+  }
+
+  #message::placeholder {
+    color:rgba(9, 10, 25, 0.607) ;
+    font-family:'Bebas Neue', 'cursive';
+  }
+
+  #email::placeholder {
+    color:rgba(9, 10, 25, 0.607) ;
+    font-family:'Bebas Neue', 'cursive';
+  }
+
+  #name::placeholder {
+    color:rgba(9, 10, 25, 0.607) ;
+    font-family:'Bebas Neue', 'cursive';
+  }
+
+  #btForm {
+    background-color: rgba(105, 125, 247, 1);
+    border-radius: 100px;
+    border-color: transparent;
+    color: white;
+    font-size: 24px;
+    padding-right: 27px;
+    padding-left: 27px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family:'Bebas Neue', 'cursive';
+  }
+
+
+
+
+
+/* FOOTER */
+
+
+
+  
+  footer {
+    background-color: rgba(9, 10, 25, 1);
+    color: white;
+    text-align: start;
+  }
+
+  .toutFooter {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #imagesFooter {
+    margin-left: 10%;
+    margin-top: 1.7%;
+  }
+
+  #linkedin {
+    margin-left: -13%;
+  }
+
+  #insta {
+    margin-top: 10%;
+  }
+
+  #contactF {
+    margin-left: 35%;
+    margin-top: -1%;
+  }
+
+  #liensRapides {
+    margin-left: 10%;
+    margin-top: -1%;
+  }
+
+  .titreFooter{
+    font-size: 36px;
+  }
+
+  #logoFooter {
+    width: 90px;
+    height: 139px;
+  }
+  
+  #linkedin {
+    width: 60px;
+    height: 60px;
+  }
+
+  #insta {
+    width: 60px;
+    height: 60px;
+  }
+
+
+  /* RESPONSIVE */
+
+
+  @media (max-width: 800px){
+
+    .marquePage {
+      display: none;
+    }
+
+    .marquePage2 {
+      display: none;
+    }
+
+    .marquePage3 {
+      display: none;
+    }
+
+
+    /* HEADER */
+
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+    }
+
+    #burger {
+      width:30px;
+      height:2px;
+      background:white;
+      display:inline-block;
+      position:relative;
+      left: 83%;
+      margin-top: 135%;
+    }
+    #burger::before,
+    #burger::after {
+      content:'';
+      width:30px;
+      height:2px;
+      background:white;
+      display:inline-block;
+      position:absolute;
+      transform-origin: center;
+      transition: all 0.3s ease;
+    }
+    #burger::before {
+      top:-7px;
+    }
+    #burger::after {
+      top:7px;
+    }
+
+    #burger.open {
+      background:transparent;
+    }
+    #burger.open::before {
+      transform: rotate(45deg);
+      top:0;
+    }
+    #burger.open::after {
+      transform: rotate(-45deg);
+      top:0;
+    }
+
+    header {
+      position:relative;
+      max-width:500px;
+      background-image: url(../PORTFOLIO/images/header.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    ul {
+      background:transparent;
+      position:absolute;
+      width:10%;
+      left:10%;
+      top:10%;
+      padding:10px 0;
+      transform:scaleY(0);
+      transform-origin:center top;
+      transition:all 0.3s ease;
+      text-decoration: none;
+      color: blue;
+    }
+    ul.open {
+      transform:scaleY(1);
+    }
+    ul li {
+      padding:10px 0;
+      text-align:center
+    }
+
+    header img {
+      margin-right: 295px;
+      width: 50px;
+      height: 84px;
+    }
+
+    .titre {
+      align-items: center;
+      justify-content: center;
+      font-size: 86px;
+      text-align: center;
+      margin-top: 160px;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    .titre p {
+      margin: -10px 0;
+    }
+
+    #arthurbesset {
+      -webkit-text-stroke: 2px;
+      -webkit-text-stroke-color: #ffff;
+      color: transparent;
+    }
+
+    #scroll {
+      transform: rotate(-90deg);
+      position: absolute;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+      left: 30%;
+      bottom: 16.8%;
+      text-decoration: none;
+    }
+
+    .scrolltrait{
+      background-color: white;
+      height: 3px;
+      width: 210px;
+      transform: rotate(-90deg);
+      position: absolute;
+      left: 28.2%;
+      bottom: 12.6%; 
+    }
+
+    header nav ul li {
+      font-size: 32px;
+      margin-left: 0px;
+    }
+    
+    header nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    header nav ul{
+      display: block;
+      left: 70%;
+      top: 0px;
+    }
+
+    .btHeader {
+      background-color: transparent;
+      border: 0px solid transparent;
+      border-radius: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    /* MAIN */
+
+    main {
+      margin: 0 auto;
+      padding: 0px;
+      background-color: rgba(9, 10, 25, 1);
+    }
+  
+    /* A PROPOS */
+  
+  
+    .moiTout{
+      display: block;
+      justify-content: center;
+  
+    }
+  
+    .mP1 {
+      color: rgba(105, 125, 247, 1);
+    }
+  
+    .marquePage {
+      letter-spacing: 12px;
+      font-size: 26px;
+      transform: rotate(-90deg);
+      position: absolute;
+      left: -2%;
+      bottom: 35%;
+    }
+  
+    .photomoi{
+      width: 320px;
+      left: 10%;
+      border-radius: 15px;
+      margin-left: 80px;
+    }
+  
+    .moiEcriture {
+      text-align: left;
+      font-size: 17px;
+      margin-left: 80px;
+    }
+  
+    .moiInfoS {
+      display: flex;
+      margin-top: 60px;
+    }
+  
+    .moiInfo{
+      color: rgba(105, 125, 247, 1);
+    }
+  
+    .moiInfo2 {
+      color: rgba(105, 125, 247, 1);
+      margin-left: 90px;
+    }
+  
+    .boutons {
+      display: flex;
+      margin-top: 83px;
+      margin-left: -15%;
+    }
+  
+    /* créations */
+
+
+    #crea{
+      background-color: rgba(9, 10, 25, 1);
+      color: white;
+      position: relative;
+      height: 700px;
+    }
+  
+    .marquePage2 {
+      letter-spacing: 12px;
+      font-size: 26px;
+      transform: rotate(-90deg);
+      position: absolute;
+      left: -2%;
+      bottom: 43%;
+    }
+  
+    .trait_titre2 {
+      background-color: white;
+      width: 80%;
+      height: 3px;
+      left: 10%;
+      bottom: 84%;
+      position: absolute;
+    }
+  
+    .grandCarré{ 
+      display: flex;
+      font-size: 54px;
+      justify-content: center;
+      margin-top: 9%;
+    }
+  
+    .traitGrad {
+      width: 100%;
+      height: 2px;
+      background-color: white;
+      top: 70%;
+      position: absolute;
+    }
+  
+    .creaTexte{
+      padding-top: 45px;
+      font-size: 30px;
+    }
+  
+    .phoTexte {
+      -webkit-text-stroke: 1.5px;
+      -webkit-text-stroke-color: #ffff;
+      color: transparent;
+      font-size: 39px;
+    }
+  
+    .btGradDiv {
+      position: absolute;
+      top: 80%;
+      left: 28%;
+    }
+  
+    .btGrad {
+      background-color: white;
+      border-radius: 100px;
+      text-decoration: none;
+      color: rgba(105, 125, 247, 1);
+      font-size: 18px;
+      padding-right: 30px;
+      padding-left: 30.5px;
+      padding-top: 7px;
+      padding-bottom: 5px;
+      text-align: center;
+  
+    }
+  
+    .gradient1 {
+      background: linear-gradient(90deg, rgba(105, 125, 247, 1), rgba(191, 46, 125, 1));
+      background-size: 400% 400%;
+      animation: anim 3.5s infinite ease-in-out;
+      width: 180px;
+      height: 180px;
+      border-radius: 50px;
+      text-align: center;
+      margin-right: 30px;
+      line-height: 1px;
+      position: relative;
+    }
+  
+    .gradient2 {
+      background: linear-gradient(90deg, rgba(105, 125, 247, 1), rgba(35, 42, 210, 1));
+      background-size: 400% 400%;
+      animation: anim 2.5s infinite ease-in-out;
+      width: 180px;
+      height: 180px;
+      border-radius: 50px;
+      text-align: center;
+      margin-right: 30px;
+      line-height: 1px;
+      position: relative;
+    }
+
+    .gradient3 {
+      background: linear-gradient(90deg, rgba(105, 125, 247, 1), rgba(249, 150, 0, 1));
+      background-size: 400% 400%;
+      animation: anim 2.3s infinite ease-in-out;
+      width: 180px;
+      height: 180px;
+      border-radius: 50px;
+      text-align: center;
+      margin-left: 30px;
+      line-height: 1px;
+      position: relative;
+    }
+  
+    .gradient4 {
+      background: linear-gradient(90deg, rgba(105, 125, 247, 1), rgba(0, 249, 159, 1));
+      background-size: 400% 400%;
+      animation: anim 3.3s infinite ease-in-out;
+      width: 180px;
+      height: 180px;
+      border-radius: 50px;
+      text-align: center;
+      margin-left: 30px;
+      line-height: 1px;
+      position: relative;
+    }
+
+
+    
+
+
+    /* FOOTER */
+
+
+
+
+
+  .toutFooter {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #imagesFooter {
+    margin-left: 10%;
+    margin-top: 5.7%;
+  }
+
+  #linkedin {
+    margin-left: -7%;
+  }
+
+  #insta {
+    margin-top: 10%;
+  }
+
+  #contactF {
+    margin-left: 25%;
+    margin-top: 2%;
+    font-size: 12px;
+  }
+
+  #liensRapides {
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: 12px;
+  }
+
+  .titreFooter{
+    font-size: 16px;
+  }
+
+  #logoFooter {
+    width: 60px;
+    height: 99px;
+  }
+  
+  #linkedin {
+    width: 30px;
+    height: 30px;
+  }
+
+  #insta {
+    width: 30px;
+    height: 30px;
+  }
+  
+   
+
+
+
+
+  }
